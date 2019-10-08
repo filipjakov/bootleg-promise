@@ -5,7 +5,8 @@
   "main": "lib/promise.js",
   "scripts": {
     "clean": "rm -rf node_modules && rm -rf package-lock.json",
-    "test": "nodemon --exec 'node_modules/jasmine/bin/jasmine.js'"
+    "tests": "node_modules/jasmine/bin/jasmine.js",
+    "tests:watch": "nodemon --exec 'node_modules/jasmine/bin/jasmine.js'"
   },
   "repository": {
     "type": "git",
