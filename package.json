@@ -1,0 +1,24 @@
+{
+  "name": "@bootleg/promise",
+  "version": "0.1.0",
+  "description": "Pure Lightweight JS implementation of the basic Promise API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipjakov/bootleg-promise.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "JS",
+    "Promise"
+  ],
+  "author": "fbulic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipjakov/bootleg-promise/issues"
+  },
+  "homepage": "https://github.com/filipjakov/bootleg-promise#readme"
+}
