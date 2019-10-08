@@ -1,5 +1,5 @@
 {
-  "name": "@bootleg/promise",
+  "name": "@fbulic/promise",
   "version": "0.1.0",
   "description": "Pure Lightweight JS implementation of the basic Promise API",
   "main": "index.js",

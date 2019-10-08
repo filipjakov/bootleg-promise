@@ -1,11 +1,11 @@
-# @bootleg/promise
+# @fbulic/promise
 
 Pure Lightweight JS implementation of the basic Promise API
 
 # Instalation
 
 ```sh
-$ npm i @bootleg/promise
+$ npm i @fbulic/promise
 ```
 
 # Usage
