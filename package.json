@@ -1,6 +1,6 @@
 {
   "name": "@fbulic/promise",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Pure Lightweight JS implementation of the basic Promise API",
   "main": "lib/promise.js",
   "scripts": {
