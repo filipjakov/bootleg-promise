@@ -1,11 +1,12 @@
 {
   "name": "@fbulic/promise",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Pure Lightweight JS implementation of the basic Promise API",
   "main": "lib/promise.js",
   "scripts": {
     "clean": "rm -rf node_modules && rm -rf package-lock.json",
-    "test": "nodemon --exec 'node_modules/jasmine/bin/jasmine.js'"
+    "tests": "node_modules/jasmine/bin/jasmine.js",
+    "tests:watch": "nodemon --exec 'node_modules/jasmine/bin/jasmine.js'"
   },
   "repository": {
     "type": "git",
