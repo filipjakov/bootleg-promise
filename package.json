@@ -4,7 +4,8 @@
   "description": "Pure Lightweight JS implementation of the basic Promise API",
   "main": "lib/promise.js",
   "scripts": {
-    "test": "node_modules/jasmine/bin/jasmine.js"
+    "clean": "rm -rf node_modules && rm -rf package-lock.json",
+    "test": "nodemon --exec 'node_modules/jasmine/bin/jasmine.js'"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/filipjakov/bootleg-promise#readme",
   "devDependencies": {
-    "jasmine": "^3.5.0"
+    "jasmine": "^3.5.0",
+    "nodemon": "^1.19.3"
   }
 }
